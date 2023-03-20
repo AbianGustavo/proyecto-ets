@@ -33,11 +33,11 @@ se dispone de un apartado donde un encargado puede revisar la información de su
 
 - **Front-end**: Este proyecto pretende hacer uso de HTML y CSS para la realización de una interfaz con la que gestionar todo lo especificado al principio del documento.
 
-<img src="https://cdn.discordapp.com/attachments/483628718628012043/1087383719473582171/JPG-2.png">
+![](../images/front_end.png)
 
 - **Back-end**: Este proyecto pretende hacer uso de Python y MySQL para la codificación de las ideas expuestas al comienzo del documento.
 
-<img src="https://www.learntek.org/blog/wp-content/uploads/2019/06/Mysql-python.png">
+![](../images/back_end.png)
 
 ## Boceto de la solución <a id="5"></a>
 
