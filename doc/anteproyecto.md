@@ -39,13 +39,7 @@ se dispone de un apartado donde un encargado puede revisar la información de su
 
 ![](../images/back_end.png)
 
-## Boceto de la solución <a id="5"></a>
-
-![](../images/boceto_front_end.png)
-
-- Esta imagen contemplaría una idea de como sería el acceso a la aplicación. La idea es crear una interfaz mediante la cual los empleados y encargados tendrán que autenticarse para más tarde gestionar los distintos apartados mencionados anteriormente.
-
-![](../images/boceto_back_end.png)
-
-- Esta imagen contemplatría un menú desde el punto de vista del encargado, mediante el cual los trabajadores podrán gestionar clientes, ventas, etc.
+## Boceto de la solución <a id="5"></a> 
+  
+![](../images/ets-boceto.png)
 
