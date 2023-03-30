@@ -36,7 +36,7 @@ En el presente documento se realiza la especificación de los diferentes actores
 | Referencias | Autenticarse, Gestionar Venta, Listar Venta, Realizar Venta, Gestionar Cliente, Insertar Cliente, Modificar Cliente, Eliminar Cliente, Listar Cliente, Gestionar Producto, Insertar Producto, Modificar Producto, Eliminar Producto, Listar Producto.  |   
 |  Notas | - |
 | Autor  | _Abián Gustavo Castañeda Méndez y Diego Peraza Cabo_ |
-|Fecha | _27/03/2023_ |
+|Fecha | _30/03/2023_ |
 
 #### Encargado
 
@@ -48,7 +48,7 @@ En el presente documento se realiza la especificación de los diferentes actores
   | Referencias | Autenticarse, Gestionar Venta, Listar Venta, Realizar Venta, Gestionar Cliente, Insertar Cliente, Modificar Cliente, Eliminar Cliente, Listar Cliente, Gestionar Producto, Insertar Producto, Modificar Producto, Eliminar Producto, Listar Producto, Gestionar Empleado, Listar Empleado, Eliminar Empleado, Modificar Empleado, Insertar Empleado.  |   
   |  Notas | - |
   | Autor  | _Abián Gustavo Castañeda Méndez y Diego Peraza Cabo_ |
-  |Fecha | _27/03/2023_ |
+  |Fecha | _30/03/2023_ |
 
 ### Especificación de Casos de Uso
 
@@ -65,7 +65,7 @@ En el presente documento se realiza la especificación de los diferentes actores
 |  Requerimientos | - |
 |  Notas | - |
 | Autor  | _Abián Gustavo Castañeda Méndez y Diego Peraza Cabo_ |
-|Fecha | _27/03/2023_ |
+|Fecha | _30/03/2023_ |
 
 #### Gestionar Venta
 
@@ -80,7 +80,7 @@ En el presente documento se realiza la especificación de los diferentes actores
 |  Requerimientos | Haberse autenticado. |
 |  Notas | - |
 | Autor  | _Abián Gustavo Castañeda Méndez y Diego Peraza Cabo_ |
-|Fecha | _27/03/2023_ |
+|Fecha | _30/03/2023_ |
 
 #### Listar Venta
 
@@ -95,7 +95,7 @@ En el presente documento se realiza la especificación de los diferentes actores
 |  Requerimientos | Haber seleccionado "Gestionar Venta" y autenticarse. |
 |  Notas | - |
 | Autor  | _Abián Gustavo Castañeda Méndez y Diego Peraza Cabo_ |
-|Fecha | _27/03/2023_ |
+|Fecha | _30/03/2023_ |
 
 
 #### Realizar Venta
@@ -111,7 +111,7 @@ En el presente documento se realiza la especificación de los diferentes actores
 |  Requerimientos | Haber seleccionado "Gestionar Venta" y autenticarse. |
 |  Notas | - |
 | Autor  | _Abián Gustavo Castañeda Méndez y Diego Peraza Cabo_ |
-|Fecha | _27/03/2023_ |
+|Fecha | _30/03/2023_ |
 
 #### Gestionar Cliente
 
@@ -126,7 +126,7 @@ En el presente documento se realiza la especificación de los diferentes actores
 |  Requerimientos | Haberse autenticado. |
 |  Notas | - |
 | Autor  | _Abián Gustavo Castañeda Méndez y Diego Peraza Cabo_ |
-|Fecha | _27/03/2023_ |
+|Fecha | _30/03/2023_ |
 
 #### Insertar Cliente
 
@@ -141,5 +141,199 @@ En el presente documento se realiza la especificación de los diferentes actores
 |  Requerimientos | Haber seleccionado "Gestionar Cliente" y autenticarse. |
 |  Notas | - |
 | Autor  | _Abián Gustavo Castañeda Méndez y Diego Peraza Cabo_ |
-|Fecha | _27/03/2023_ |
+|Fecha | _30/03/2023_ |
 
+#### Modificar Cliente
+
+|  Caso de Uso	CU.7 | Modificar Cliente |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/AbianGustavo/proyecto-ets/blob/feature_10/doc/diagrama-casos-uso.md).|
+| Actor  | Empleado, Encargado |
+| Descripción | Tanto el empleado como el encargado podrán modificar en el sistema la información de sus clientes. |
+| Flujo básico | Autenticarse --> Gestionar Cliente --> Modificar Cliente |
+| Pre-condiciones | - |  
+| Post-condiciones  | - |  
+|  Requerimientos | Haber seleccionado "Gestionar Cliente" y autenticarse. |
+|  Notas | - |
+| Autor  | _Abián Gustavo Castañeda Méndez y Diego Peraza Cabo_ |
+|Fecha | _30/03/2023_ |
+
+#### Eliminar Cliente
+
+|  Caso de Uso	CU.8 | Eliminar Cliente |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/AbianGustavo/proyecto-ets/blob/feature_10/doc/diagrama-casos-uso.md).|
+| Actor  | Empleado, Encargado |
+| Descripción | Tanto el empleado como el encargado podrán eliminar en el sistema clientes y sus datos. |
+| Flujo básico | Autenticarse --> Gestionar Cliente --> Eliminar Cliente |
+| Pre-condiciones | - |  
+| Post-condiciones  | - |  
+|  Requerimientos | Haber seleccionado "Gestionar Cliente" y autenticarse. |
+|  Notas | - |
+| Autor  | _Abián Gustavo Castañeda Méndez y Diego Peraza Cabo_ |
+|Fecha | _30/03/2023_ |
+
+#### Listar Cliente
+
+|  Caso de Uso	CU.9 | Listar Cliente |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/AbianGustavo/proyecto-ets/blob/feature_10/doc/diagrama-casos-uso.md).|
+| Actor  | Empleado, Encargado |
+| Descripción | Tanto el empleado como el encargado podrán listar en el sistema a sus clientes y datos. |
+| Flujo básico | Autenticarse --> Gestionar Cliente --> Listar Cliente |
+| Pre-condiciones | - |  
+| Post-condiciones  | - |  
+|  Requerimientos | Haber seleccionado "Gestionar Cliente" y autenticarse. |
+|  Notas | - |
+| Autor  | _Abián Gustavo Castañeda Méndez y Diego Peraza Cabo_ |
+|Fecha | _30/03/2023_ |
+
+#### Gestionar Producto
+
+|  Caso de Uso	CU.10 | Gestionar Producto |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/AbianGustavo/proyecto-ets/blob/feature_10/doc/diagrama-casos-uso.md).|
+| Actor  | Empleado, Encargado |
+| Descripción | Tanto el empleado como el encargado podrán gestionar todo lo realizado a sus productos. |
+| Flujo básico | Autenticarse --> Gestionar Producto |
+| Pre-condiciones | - |  
+| Post-condiciones  | - |  
+|  Requerimientos | Haberse autenticado. |
+|  Notas | - |
+| Autor  | _Abián Gustavo Castañeda Méndez y Diego Peraza Cabo_ |
+|Fecha | _30/03/2023_ |
+
+#### Insertar Producto
+
+|  Caso de Uso	CU.11 | Insertar Producto |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/AbianGustavo/proyecto-ets/blob/feature_10/doc/diagrama-casos-uso.md).|
+| Actor  | Empleado, Encargado |
+| Descripción | Tanto el empleado como el encargado podrán insertar en el sistema nuevos productos. |
+| Flujo básico | Autenticarse --> Gestionar Producto --> Insertar Producto|
+| Pre-condiciones | - |  
+| Post-condiciones  | - |  
+|  Requerimientos | Haber seleccionado "Gestionar Producto" y autenticarse. |
+|  Notas | - |
+| Autor  | _Abián Gustavo Castañeda Méndez y Diego Peraza Cabo_ |
+|Fecha | _30/03/2023_ |
+
+#### Modificar Producto
+
+|  Caso de Uso	CU.12 | Modificar Producto |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/AbianGustavo/proyecto-ets/blob/feature_10/doc/diagrama-casos-uso.md).|
+| Actor  | Empleado, Encargado |
+| Descripción | Tanto el empleado como el encargado podrán modificar los productos que hay en el sistema. |
+| Flujo básico | Autenticarse --> Gestionar Producto --> Modificar Producto|
+| Pre-condiciones | - |  
+| Post-condiciones  | - |  
+|  Requerimientos | Haber seleccionado "Gestionar Producto" y autenticarse. |
+|  Notas | - |
+| Autor  | _Abián Gustavo Castañeda Méndez y Diego Peraza Cabo_ |
+|Fecha | _30/03/2023_ |
+
+#### Listar Producto
+
+|  Caso de Uso	CU.13 | Listar Producto |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/AbianGustavo/proyecto-ets/blob/feature_10/doc/diagrama-casos-uso.md).|
+| Actor  | Empleado, Encargado |
+| Descripción | Tanto el empleado como el encargado podrán listar los productos que hay en el sistema. |
+| Flujo básico | Autenticarse --> Gestionar Producto --> Listar Producto|
+| Pre-condiciones | - |  
+| Post-condiciones  | - |  
+|  Requerimientos | Haber seleccionado "Gestionar Producto" y autenticarse. |
+|  Notas | - |
+| Autor  | _Abián Gustavo Castañeda Méndez y Diego Peraza Cabo_ |
+|Fecha | _30/03/2023_ |
+
+#### Eliminar Producto
+
+|  Caso de Uso	CU.14 | Eliminar Producto |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/AbianGustavo/proyecto-ets/blob/feature_10/doc/diagrama-casos-uso.md).|
+| Actor  | Empleado, Encargado |
+| Descripción | Tanto el empleado como el encargado podrán eliminar los productos que hay en el sistema. |
+| Flujo básico | Autenticarse --> Gestionar Producto --> Eliminar Producto |
+| Pre-condiciones | - |  
+| Post-condiciones  | - |  
+|  Requerimientos | Haber seleccionado "Gestionar Producto" y autenticarse. |
+|  Notas | - |
+| Autor  | _Abián Gustavo Castañeda Méndez y Diego Peraza Cabo_ |
+|Fecha | _30/03/2023_ |
+
+#### Gestionar Empleado
+
+|  Caso de Uso    CU.15 | Gestionar Empleado |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/AbianGustavo/proyecto-ets/blob/feature_10/doc/diagrama-casos-uso.md).|
+| Actor  | Encargado |
+| Descripción | El encargado podrá gestionar todo lo relacionado a sus empleados. |
+| Flujo básico | Autenticarse --> Gestionar Empleado |
+| Pre-condiciones | - |
+| Post-condiciones  | - |
+|  Requerimientos | Haberse autenticado. |
+|  Notas | - |
+| Autor  | _Abián Gustavo Castañeda Méndez y Diego Peraza Cabo_ |
+|Fecha | _30/03/2023_ |
+
+#### Listar Empleado
+
+|  Caso de Uso    CU.16 | Listar Empleado |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/AbianGustavo/proyecto-ets/blob/feature_10/doc/diagrama-casos-uso.md).|
+| Actor  | Encargado |
+| Descripción | El encargado podrá listar a sus empleados y sus datos. |
+| Flujo básico | Autenticarse --> Gestionar Empleado --> Listar Empleado |
+| Pre-condiciones | - |
+| Post-condiciones  | - |
+|  Requerimientos | Haber seleccionado "Gestionar Empleado" y autenticarse. |
+|  Notas | - |
+| Autor  | _Abián Gustavo Castañeda Méndez y Diego Peraza Cabo_ |
+|Fecha | _30/03/2023_ |
+
+#### Eliminar Empleado
+
+|  Caso de Uso    CU.17 | Eliminar Empleado |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/AbianGustavo/proyecto-ets/blob/feature_10/doc/diagrama-casos-uso.md).|
+| Actor  | Encargado |
+| Descripción | El encargado podrá eliminar empleados y sus datos. |
+| Flujo básico | Autenticarse --> Gestionar Empleado --> Eliminar Empleado |
+| Pre-condiciones | - |
+| Post-condiciones  | - |
+|  Requerimientos | Haber seleccionado "Gestionar Empleado" y autenticarse. |
+|  Notas | - |
+| Autor  | _Abián Gustavo Castañeda Méndez y Diego Peraza Cabo_ |
+|Fecha | _30/03/2023_ |
+
+#### Modificar Empleado
+
+|  Caso de Uso    CU.18 | Modificar Empleado |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/AbianGustavo/proyecto-ets/blob/feature_10/doc/diagrama-casos-uso.md).|
+| Actor  | Encargado |
+| Descripción | El encargado podrá modificar la información de sus empleados. |
+| Flujo básico | Autenticarse --> Gestionar Empleado --> Modificar Empleado |
+| Pre-condiciones | - |
+| Post-condiciones  | - |
+|  Requerimientos | Haber seleccionado "Gestionar Empleado" y autenticarse. |
+|  Notas | - |
+| Autor  | _Abián Gustavo Castañeda Méndez y Diego Peraza Cabo_ |
+|Fecha | _30/03/2023_ |
+
+#### Insertar Empleado
+
+|  Caso de Uso    CU.19 | Insertar Empleado |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/AbianGustavo/proyecto-ets/blob/feature_10/doc/diagrama-casos-uso.md).|
+| Actor  | Encargado |
+| Descripción | El encargado podrá insertar nuevos empleados y sus datos. |
+| Flujo básico | Autenticarse --> Gestionar Empleado --> Insertar Empleado |
+| Pre-condiciones | - |
+| Post-condiciones  | - |
+|  Requerimientos | Haber seleccionado "Gestionar Empleado" y autenticarse. |
+|  Notas | - |
+| Autor  | _Abián Gustavo Castañeda Méndez y Diego Peraza Cabo_ |
+|Fecha | _30/03/2023_ |
