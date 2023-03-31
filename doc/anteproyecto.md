@@ -2,7 +2,8 @@
 
 # Anteproyecto - Gameda Games
 
-![](../images/logo.png)
+ <img src="../images/logo.png" width = "100px">
+
   
 # Indice
   
