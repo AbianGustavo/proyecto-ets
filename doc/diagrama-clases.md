@@ -1,1 +1,1 @@
-<img src="./images/diagrama-clases.png">
+<img src="../images/diagrama-clases.png">
